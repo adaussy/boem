@@ -11,6 +11,7 @@ jobs:
       provider: releases
       api_key:
         secure: K4ZaJndv340nfYhxom8UuzzxijgFFAmrmaS8B1GN0fzplOV2Be0N9R8kaVzpcgzsyJuUIwiVf9ZmpOJBpdnQui1EEwYdVe+VQb5QlRo5m2MvfkS6zkUL319fjUU4vBWYWDF1Gp4fBdgOhuxqN7IEMNBv7mMNWc2bsQzmcnvRTZDzoi5CsF/afUV+s2wIdBVQkWboWW2aPJUbkXuJ6hpNeqMVe5oWq823dsME8+JDl/l5k5p2y7pvHvdznHdIA0QvC19KVwrKXMaw/fOBVBDvQrfGVz2oylT3A2Ck4osbdAYwu+Gfz1T8DRt70pxWbRNJd8oLUAcR9nS7PVQKrKywIOx8qqCCZuF7A1spETiIQ6bSxWy+51rUlsRcbNH2bR0EBrq+yi654vuaC2Umaq3u1fCPCRysv2AEz0owQPBaMg3vD+3xysnGN2JPAouipPKySU13GS8sAFSic0Jz5JC1xjWcZX647XVhziyAXhYMTHitMerDtZ75cgWM+PSKTUH3FU3saBuptKeXd6pwv8TafFkncjXpt1+q1PvC6pPz5KKYMNhwuVCCCB3i2/214iOBwMaxdn+Gp0ESEMGgH/MM9TFksWMHhFSuSv/EY47J/GBv+y2MAl96FfG1aJ6XcCb3Y3Knu+2SZeZnzhnd7zI7Gu2kEQgJqXZMDSfDXMImJbU=
+      file_glob: true
       file: releng/fr.ibp.odv.boem.updatesite/target/fr.ibp.odv.boem*
       skip_cleanup: true
       on:
